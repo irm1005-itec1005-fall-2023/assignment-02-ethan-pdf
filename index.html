@@ -1,33 +1,548 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+ 
+  <head>
+    <!-- Set the page title -->
+    <title>Escape From Tarkov : Cult Hunting</title>
 
-<head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
+    <!-- Set the charset we're using to UTF-8 -->
+    <meta charset="UTF-8" />
 
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+    <!-- Set the screens default zoom / scale to  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Specifies the document mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS -->
+    <!-- The following CSS has been added so that the page
+    doesn't look super awful -->
+    <!-- Ignore everything in the <style> tag for now --> <!--you got it boss-->
+    <!-- We will learn about CSS later in the course -->
+   <link rel="stylesheet" href="style.css"/>
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
+    <body>
 
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
+    
+    
+  
 
-<body>
-  <!--
+  
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
-  -->
-  <h1>Assignment 02</h1>
+
+    <!--
+
+      LIST ANY CITATIONS HERE
+
+        * A https://tenor.com/view/escape-from-tarkov-gif-21833747
+        * B https://www.pxfuel.com/en/desktop-wallpaper-zwnug
+* C https://www.pxfuel.com/en/desktop-wallpaper-ittzw
+* D https://www.pngmart.com/image/tag/escape-from-tarkov
+* E https://www.google.com/url?sa=i&url=https%3A%2F%2Funity.com%2Fmadewith%2Fescape-from-tarkov&psig=AOvVaw0x8aTfB8Bt6jL3smdRI0rV&ust=1695339623656000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjbhrKuuoEDFQAAAAAdAAAAABAJ
+* F https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki
+
+    -->
+
+  <div class="menu">  
+
+    <div calss="item1"><img id="logo" src="images/Escape-from-Tarkov-PNG-Isolated-Pic.png" alt="tarkov official logo"></div>
+   
+   
+   <div class="item2"><h1>Russian Ritual Response Group</h1></div>
+  
+    <div class="item3">
+   <nav>
+<a href="#loremipsum">Login</a>
+<a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki">Guide to Everything</a>
+<a href="https://www.escapefromtarkov.com/preorder-page"> Pre-Order Escape From Tarkov</a>
+</nav>
+    </div>
+
+   </div> 
+
+
+<h3 style="text-align: center;"><i>"Gear up, were going dark"</i></h3>
+
+<main>
+
+<section id="hero" class="hero">
+
+<div class="item-1"><img src="images/this_is_making_me_mad.jpg" alt=" soldier in the dark being sillygoofy"></div>
+<div class="textflex"><h2>Welcome Warrior</h2>
+<p>In the war-ravaged world of Escape from Tarkov, cultists are a mysterious and formidable
+   adversary that players must learn to hunt effectively. These enigmatic factions, known for their
+    eerie rituals and devout loyalty to their dark beliefs, roam the streets and forests of Tarkov,
+    posing a significant threat to scavengers and PMC operatives  alike. To successfully hunt cultists,
+     it is essential to approach with caution, for they are often armed with deadly close-quarters 
+     weapons and demonstrate an uncanny ability to blend into their surroundings. Employing stealth, 
+     well-placed shots, wether it be alone or with your squadmates is key to taking down these 
+     fanatical foes and securing their valuable loot. This page will show you how to do just that,
+     by providing an in depth guide on different strategies, weapons, angles and more to not only
+     take out the mysterious cult, but also adapt to the dangerous situations you might 
+     find yourself in.
+</p>
+</div>
+</section>
+
+<div class="toc" id="tableofcontents">
+  <nav>
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#Gear">Knowing your enemy</a></li>
+    <li><a href="#rec-loadout">Recommended loadouts</a></li>
+    <li><a href="#behaviour">Cultist Combat</a></li>
+    <li><a href="#Sherpa">Sherpa Request</a></li>
+  </ol>
+</nav>
+</div>
+
+<section id="Gear">
+  <h2>Knowing your enemey</h2>
+  <h3>Basic information on cultists class, loot, and loadouts</h3>
+ <p>Cultists prefer to dwell in the dark of the night. They can be found between the hours of 22:00 and 7:00 in varying group sizes on locations:</p>
+
+ <div class="maps">
+<div class="customs"><img src="images/maps/customs.webp" alt="customs"><p>Customs</p></div>
+<div class="shoreline"><img src="images/maps/shoreline.webp" alt="shoreline"><p>Shoreline</p></div>
+<div class="factory"><img src="images/maps/factory.webp" alt="factory"><p>Factory</p></div>
+<div class="woods"><img src="images/maps/woods.webp" alt="woods"><p>Woods</p></div>
+ </div>
+
+ <p>The Cult of tarkov features its own distinctive classes, 
+  those being the Priest, leaders within the cult who are strong 
+  and tricky foes, deploying their underlings to fight in their steed. and 
+  the Warriors devoted followers of the priest who are very aggressive 
+  when provoked. While the two differ in class, their relevant loadouts remain
+   relatively similar. below are cultists healthpools and some highly sought after gear
+  worth picking up.</p>
+   <table>
+    <thead>
+      <tr>
+ <th>Priest</th>
+ <th>Warrior</th>
+ </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><img src="images/Health_Cultist_Priest.webp" alt="Priest healthpool"><p>Note that a Priest will not spawn with Armor</p></td>
+    <td><img src="images/Health_Cultist_Warrior.webp" alt="Warrior healthpool"><p>Warriors always have armor with 20 additional thorax hp</p></td>
+    </tr>
+    </tbody>
+   </table>
+<br>
+   <table>
+    <thead>
+      <tr>
+      <th>Weapons</th>
+      <th>Ammunition</th>
+      <th>Armor</th>
+      <th>Items</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+<td>
+  <img src="images/weapons/Cultist_AKM.webp" alt="AKM 7.62">
+  <img src="images/weapons/Cultist_SKS.webp" alt="SKS 7.62">
+  <img src="images/weapons/CultistMk47.webp" alt="Mutant">
+</td>
+<td><img src="images/Ammo/7.62x39BP.webp" alt="7.62 BP Round"></td>
+<td>
+  <img src="images/Armour/Slick.webp" alt="slick">
+<img src="images/Armour/5.11_Hexgrid_plate_carrier.webp" alt="hexgrid">
+<img src="images/Armour/Defender-2_Icon.webp" alt="defender 2">
+</td>
+<td>
+<img src="images/items/Sas_icon.webp" alt="SAS disk">
+<img src="images/items/Secure_Flash_drive_Icon.webp" alt="Flash Drive">
+
+<img src="images/items/Factory_key_icon.webp" alt="factory extract key">
+<img src="images/items/Lab._key._Alarm_system_control_panel_icon.webp" alt="yellow keycard">
+<img src="images/items/Lab._key._Security_arsenal.webp" alt="Red keycard">
+<img src="images/items/Lab._key._Security_post_icon.webp" alt="Violet Keycard">
+<img src="images/items/Lab._key._The_quarantine_zone_icon.webp" alt="Blue keycard">
+<img src="images/items/Lab_Key_Block2.webp" alt="Green Keycard">
+<img src="images/items/LkEA_Icon.webp" alt="Black Keycard">
+<img src="images/items/Marked-key-Icon.webp" alt="dorms marked key">
+<img src="images/items/Abandoned_factory_marked_key_icon.webp" alt="streets marked key">
+<img src="images/items/RB-BK_Icon.webp" alt="reserve marked key">
+
+
+
+
+</td>
+      </tr>
+
+  <tr>
+<td><img src="images/weapons/Cultist_SR-25.webp" alt="Sr-25"></td>
+<td><img src="images/Ammo/M62ICON.webp" alt="M62"></td>
+<td><img src="images/Armour/FORT_Redut-M_body_armor_icon.webp" alt="Redut"></td>
+<td></td>
+      </tr>
+
+ <tr>
+<td>
+<img src="images/weapons/Cultist_105.webp" alt="Ak-105">
+<img src="images/weapons/Cultist_RPK.webp" alt="RPK">
+</td>
+
+<td>
+<img src="images/Ammo/74BPICON.webp" alt="5.45 bp">
+<img src="images/Ammo/74TICON.webp" alt="5.45 bt">
+<img src="images/Ammo/7n39icon.webp" alt="5.45 Igolnik">
+</td>
+<td><img src="images/Armour/KORUNDIcon.webp" alt="Korund"></td>
+</tr>
+
+<tr>
+<td>
+  <img src="images/weapons/Cultist_SVDS.webp" alt="SVD">
+</td>
+<td>
+  <img src="images/Ammo/SNBICON.webp" alt="SNB">
+</td>
+</tr>
+
+<tr>
+<td>
+  <img src="images/weapons/Cultist_Vityaz.webp" alt="PP-19">
+  <img src="images/weapons/CultistMP5.webp" alt="MP5">
+</td>
+<td>
+  <img src="images/Ammo/7N31Icon.webp" alt="Igolnik 9.19">
+  <img src="images/Ammo/9x19ap.webp" alt="AP 9.19">
+</td>
+
+</tr>
+
+<tr>
+  <td>
+    <img src="images/weapons/Cultist_Knife_icon.webp" alt="Cursed knife">
+  </td>
+</tr>
+
+    </tbody>
+   </table>
+</section>
+
+<section id="rec-loadout">
+  <h2>Recommended loadouts</h2>
+  <h3>Loadouts for cultists engagement</h3>
+  <p>now that we are more familiar with the scale of the threat, its much easier to workshop a loadout that fits the appropriate playstlyle. 
+    there is all kinds of gear up for grabs on the market of tarkov, being able to identify what will help you for the right price is a cruicial
+     part of tarkovs gameplay loop and is something all players should be familiar with if theyre even considering taking on such a formidable foe.
+    </p>
+
+  <h4>Ammunition</h4>
+  <p>Ammo is going to be the most important part of taking on the culstist. Having the right caliber to not only pierce their armor, but also guarantee headshot eliminations is very crucial as these enemies have more health than the average foe in tarkov. In terms of fighting against cultists, typically you want to have 7.62 or greater, because of its armor penetration, velocity and base flesh damage. Listed below are some cost efficient options that yield consistent results:
+ </p>
+<table>
+<thead>
+  <tr>
+  <th>7.62x39mm</th>
+  <th>7.62x51mm</th>
+  <th>9x39mm</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><img src="images/Ammo/7.62x39BP.webp" alt="BP"></td>
+  <td>
+    <img src="images/Ammo/m61.webp" alt="m61">
+    <img src="images/Ammo/M62ICON.webp" alt="M62">
+    <img src="images/Ammo/m80.webp" alt="m80">
+  </td>
+  <td><img src="images/Ammo/sppgs.webp" alt="sppgs"></td>
+</tr>
+
+
+</tbody>
+</table>
+    <p>
+      Some other high caliber rounds are effective but are 
+      not cost efficient, so use them at your own discretion.
+    </p>
+
+   <h4>Weapons</h4>
+
+   <p>
+    Being fitted with the right firearm most definitely has an impact on efficiency 
+    when it comes to hunting cultists. Weapons with both single and automatic firing 
+    settings are ideal, as they provide you with stability for close quarters and ranged
+     combat and enables the user to adapt to the warriors rapidly changing behaviour. 
+     however some single fire options are still optimal due to the high muzzle velocity. 
+     The most cost efficient weapons are <strong>NATO</strong> firearms, so they cost 
+     <strong>USD</strong> or have inflated prices 
+     on the market but are reliable weapons bottomline.
+    </p>
+<!--₽-->
+    <table>
+      <thead>
+        <tr>
+        <th>Weapon Name</th>
+        <th>Weapon</th>
+        <th>Trader Price</th>
+        <th>Flea Market Price</th>
+      </tr>
+      </thead>
+      <tbody>
+<tr>
+  <td>M1A SASS</td>
+  <td><img src="images/weapons/m1a.webp" alt="M1A"></td>
+  <td>₽123944</td>
+  <td>N/A</td>
+</tr>
+
+<tr>
+  <td>SR-25</td>
+  <td><img src="images/weapons/sr25.png" alt="Sr-25"></td>
+  <td>$924</td>
+  <td>N/A</td>
+</tr>
+
+<tr>
+  <td>MDR (7.62 variant)</td>
+  <td><img src="images/weapons/mdr.png" alt="MDR"></td>
+  <td>$1345</td>
+  <td>N/A</td>
+</tr>
+
+<tr>
+  <td>SA-58</td>
+  <td><img src="images/weapons/sa-58.png" alt="sa-58"></td>
+  <td>$980</td>
+  <td>₽94000</td>
+</tr>
+
+<tr>
+  <td>MK47 (Mutant)</td>
+  <td><img src="images/weapons/mutant.png" alt="MK47"></td>
+  <td>₽140253</td>
+  <td>N/A</td>
+</tr>
+      </tbody>
+    </table>
+
+    <div class="Tactical">
+  <h4>Tactical Devices</h4>
+
+  <p>
+    When working at night, having the right technology that gives you an edge in the 
+    darkness can be very beneficial. Night vision, Ir laser pointers and searchlights, 
+    and even functional modifications such as holographic scopes can make taking down 
+    your target a walk in the park. However, it's important to keep in mind that it can 
+    get costly very quickly, especially in terms of night vision, it is strongly recommended 
+    not to use anything else other than the GPNVG-18 because of its wide field of view and 
+    image quality, everything while cheaper does not provide the benefits seen in these nods.
+  </p>
+<div class="angy">
+  <img src="images/nightvision.png" alt="night vision">
+  <img src="images/TACTICAL_DEVICE_SHOW_OFF.png" alt="tactical devices">
+</div>
+</div>
+
+<div class="armor">
+  <h4>Armour</h4>
+  <p>
+    Survival is paramount, and venturing into the night to hunt down cultists requires careful 
+    consideration of every aspect of your gear. Selecting the right armor is a pivotal decision, 
+    as it can mean the difference between life and death at the height of an intense firefight. 
+    Cultists are cunning adversaries, and your choice of armor will determine your ability to 
+    withstand their relentless attacks, from their high-power ammo and well-placed shots. 
+    Given the scarcity of high-level armor, there will be a focus on more accessible 
+    lower-tier gear.Whether you prioritize mobility, protection, or a balance of both, 
+    your selection will define your strategy. Listed below are some recommendations 
+    for each weight class and coverage.
+  </p>
+
+  <div class="armortable">
+  <table>
+    <thead>
+      <tr>
+      <th>Icon</th>
+      <th>Armor</th>
+      <th>class</th>
+      <th>Coverage</th>
+      <th>Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td><img src="images/Armour/gzhel.webp" alt="gzhel">
+<td>GZHEL-K</td>
+<td>Class 4</td>
+<td>throax,<br>stomach</td>
+<td>8.9 kg</td>
+</tr>
+
+<tr>
+<td><img src="images/Armour/trooper.webp" alt="trooper"></td>
+<td>Trooper</td>
+<td>Class 4</td>
+<td>throax</td>
+<td>6.8 kg</td>
+</tr>
+
+<tr>
+<td><img src="images/Armour/avs.webp" alt="avs"></td>
+<td>AVS</td>
+<td>Class 4</td>
+<td>throax,<br>stomach</td>
+<td>8.7 kg</td>
+</tr>
+
+<tr>
+<td><img src="images/Armour/tv110.webp" alt="TV-110"></td>
+<td>TV-110</td>
+<td>Class 4</td>
+<td>throax,<br>stomach</td>
+<td>10.3 kg</td>
+</tr>
+    </tbody>
+    
+  </table>
+  </div>
+</div>
+
+  <div class="backpacks">
+  <h4>backpack</h4>
+  <p>
+    Probably the most straightforward aspect of prepping your gear. Cultists have a chance
+     of spawning with high-tier level 5-6 armor. Highly sought after so you want to be able 
+     to carry it out once the firefight is concluded. Having a large backpack adds weight to 
+     your character but at night your chances of running into further combat are unlikely however 
+     this does not mean it is impossible. The amount of profit and gear you receive after a 
+     successful hunt is something you want to fully indulge in so here are some recommended 
+     examples of large affordable backpacks to make the most of the loot.
+    </p>
+
+    <div class="packs">
+      
+    <img src="images/backpacks/tiger.webp" alt="tiger trooper">
+  
+  
+     <img src="images/backpacks/Mystery_Ranch_Blackjack_50_backpack_icon.webp" alt="blackjack">
+  
+  
+   
+      <img src="images/backpacks/AttackInventory.PNG.webp" alt="attack 2">
+   
+    
+    </div>
+
+
+</div>
+
+</section>
+
+<section class="behaviour" id="behaviour">
+<h2>Cultist Combat</h2>
+<h3>Ai behaviours and engagement tactics</h3>
+<h4>behaviour</h4>
+<div class="behave">
+
+<p style="text-align: left;">Cultists are highly known for their stealth. 
+  They tend to hide in off angles, foliage, and areas with high coverage, and attack when you least expect it. 
+  They can be fairly spread at most times, this way they can cover a wider area, this however can delay their rotations 
+  to different points. When scanning an area they will always be either prone or crouched in cover. They are cold-blooded, 
+  which means they will not appear on thermal radars, and their footsteps are completely silent. The only audio queues they 
+  give are rummaging through foliage, faint whispers, or tiny grunts when injured. When approached by a player, 1 or 2 warriors 
+  will coordinate a stealth attack using a knife to inflict intoxication, it will 
+  then retreat back to its post. If aimed at for too long, they will retaliate with suppressed gunfire. If a warrior is
+   fired upon, the injured cultist will return fire, and the priest will retreat. whereas if a priest is fired upon, all 
+   cultists will converge on the player's location from all directions in an attempt to take them out, they will also 
+   throw grenades to force a rotation.
+  </p>
+
+  <img src="images/Help_I'm_scared.JPG.webp" alt="attacking cultist">
+</div>
+  <h4>rules of engagement</h4>
+  <ol>
+    <li>When engaging with cultists, it's very important to take things slow. Analyze the area and look for a 
+      sealable area with as little as 2 entrances. This is important as once the cultists are agitated they 
+      will try to push you from multiple locations, so minimizing the amount of places they can push you from 
+      will make it much easier to take them on.
+    </li>
+    <li>
+      Never push, always let them come to you. They tend to act very slow but it's better to take them on one
+       to two at a time. Being able to confirm your kill will allow you to keep track of how many might be left.
+    </li>
+    <li>
+      Never hold a wide angle. When cultists are in an aggressive state 
+      they like to switch up their hiding spots and peek around cover. If too much 
+      of your body is exposed at a time. And if they see you before you see them it will 9 times out 
+      of 10 lead to a swift death. This also allows you to get easy headshots while taking fire.
+    </li>
+    <li>
+      If approached by enemy PMCs, always fight them before fighting the cultists, as juggling both
+       will make it much harder to keep track of everything that is happening.
+      </li>
+  </ol>
+</section>
+
+<section class="box" id="Sherpa">
+<h2>Sherpa Request</h2>
+<p>This is a small guide on how to take on a tough enemy in a battlefield that changes every day. we are not perfect and make mistakes, so you dont have to 
+  fight this battle alone. fill out the form below to be paired with one of tarkovs community sherpas. form a squad and take on the dangers of tarkov together!
+  or if you have any recommendations for our guides let us know how we can improve, and help small time operators make it big in the exciting world of Escape from Tarkov.
+</p>
+
+<form>
+<fieldset>
+
+<legend>Sherpa Request</legend>
+<img src="images/FiAQI6DWIAAx9bN.jpg_large" alt="Sherpa">
+<label for="Name">Name:</label>
+<br>
+<input type="text" id="Name" name="Feedbacktype" required autocomplete="name">
+<br>
+<label for="Email">Email:</label>
+<br>
+<input type="email" id="Email" name="Feedbacktype" required autocomplete="email">
+<br>
+<label for="BSGusername">BSGUsername:</label>
+<br>
+<input type="text" id="BSGusername" name="Feedbacktype" required autocomplete="username">
+<br>
+<label for="playerlevel">Player Level:</label>
+<select id="playerlevel" name="Feedbacktype">
+  <option value="1">15+</option>
+  <option value="2">25+</option>
+  <option value="3" selected>35+</option>
+  <option value="4">45+</option>
+  <option value="5">50+</option>
+</select>
+<br>
+<label>Faction:</label>
+
+
+<label for="USECfaction">USEC</label>
+  <input type="radio" id="USECfaction" name="Faction" value="USEC">
+
+
+  <label for="BEARfaction">BEAR</label>
+  <input type="radio" id="BEARfaction" name="Faction" value="BEAR">
+  
+  <br>
+  <label for="additionalinfo">Additional info:</label>
+  <br>
+  <textarea id="additionalinfo" name="additionalinfo" rows="4" cols="50" placeholder="Let us know here any additional information you might want to convey!"></textarea>
+<br>
+<button type="submit" value="submit data">Get Ready For Escape</button>
+
+</fieldset>
+</form>
+</section>
+</main>
+  
+
+<footer>
+
+<img id="logo" src="images/Escape-from-Tarkov-PNG-Isolated-Pic.png" alt="tarkov official logo">
+<p>104, monkey-money avenue, unit # 69</p>
+<p>&copy; 2023</p>
+
+</footer>
 </body>
-
 </html>
