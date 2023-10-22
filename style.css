@@ -337,3 +337,24 @@ border: none;
 width: 600px;
   border-radius: 1rem;
 }
+
+.ending img {
+  box-shadow: 20px 20px 50px rgba(28, 66, 39, 0);
+}
+
+.ending a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(44, 168, 81);
+padding: 3px;
+transition-duration: 1s;
+
+ 
+}
+
+.ending a:hover {
+  text-decoration: underline;
+  color: rgb(61, 231, 112);
+  
+}
